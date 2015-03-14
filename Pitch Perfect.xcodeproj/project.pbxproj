@@ -13,7 +13,6 @@
 		FA8FFD121A9BCFEA001FB4A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8FFD111A9BCFEA001FB4A6 /* Images.xcassets */; };
 		FA8FFD211A9BCFEA001FB4A6 /* Pitch_PerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8FFD201A9BCFEA001FB4A6 /* Pitch_PerfectTests.swift */; };
 		FA8FFD2B1AA1F7A9001FB4A6 /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8FFD2A1AA1F7A9001FB4A6 /* PlaySoundViewController.swift */; };
-		FA9AA4EB1AA207160041A606 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = FA9AA4EA1AA207160041A606 /* Sounds */; };
 		FA9AA4ED1AA22C500041A606 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AA4EC1AA22C500041A606 /* RecordedAudio.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +37,6 @@
 		FA8FFD1F1A9BCFEA001FB4A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA8FFD201A9BCFEA001FB4A6 /* Pitch_PerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_PerfectTests.swift; sourceTree = "<group>"; };
 		FA8FFD2A1AA1F7A9001FB4A6 /* PlaySoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundViewController.swift; sourceTree = "<group>"; };
-		FA9AA4EA1AA207160041A606 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		FA9AA4EC1AA22C500041A606 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +79,6 @@
 		FA8FFD071A9BCFE9001FB4A6 /* Pitch Perfect */ = {
 			isa = PBXGroup;
 			children = (
-				FA9AA4EA1AA207160041A606 /* Sounds */,
 				FA8FFD0A1A9BCFEA001FB4A6 /* AppDelegate.swift */,
 				FA8FFD0C1A9BCFEA001FB4A6 /* RecordSoundsViewController.swift */,
 				FA8FFD0E1A9BCFEA001FB4A6 /* Main.storyboard */,
@@ -198,7 +195,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA9AA4EB1AA207160041A606 /* Sounds in Resources */,
 				FA8FFD101A9BCFEA001FB4A6 /* Main.storyboard in Resources */,
 				FA8FFD121A9BCFEA001FB4A6 /* Images.xcassets in Resources */,
 			);
